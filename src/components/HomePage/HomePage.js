@@ -24,7 +24,7 @@ const HomePage = () => {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
   };
-
+// navrattanholdings_static;
   const slideRefs = useRef([]);
   slideRefs.current = [];
 
