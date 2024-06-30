@@ -152,26 +152,50 @@ const Footer = () => {
           <h6>SOCAIL MEDIA</h6>
           <div className="Footer_line"></div>
           <div className="Footer_SocialMediadiv">
-            <i
+            <Link
               ref={(el) => (socialMediaIconsRef.current[0] = el)}
-              className="bi bi-facebook"
-            ></i>
-            <i
+              style={{ textDecoration: "none", color: "white" }}
+              to="https://www.facebook.com/navrattangroup"
+              target="_blank"
+            >
+              <i className="bi bi-facebook"></i>
+            </Link>
+            <Link
               ref={(el) => (socialMediaIconsRef.current[1] = el)}
-              className="bi bi-instagram"
-            ></i>
-            <i
+              style={{ textDecoration: "none", color: "white" }}
+              to="https://in.pinterest.com/navrattangroup/"
+              target="_blank"
+            >
+              {/* <i className="bi bi-instagram"></i> */}
+              <i class="bi bi-pinterest"></i>
+            </Link>
+
+            <Link
               ref={(el) => (socialMediaIconsRef.current[2] = el)}
-              className="bi bi-twitter-x"
-            ></i>
-            <i
+              style={{ textDecoration: "none", color: "white" }}
+              to="https://twitter.com/HimanshVerma1"
+              target="_blank"
+            >
+              <i className="bi bi-twitter-x"></i>
+            </Link>
+
+            <Link
               ref={(el) => (socialMediaIconsRef.current[3] = el)}
-              className="bi bi-linkedin"
-            ></i>
-            <i
+              style={{ textDecoration: "none", color: "white" }}
+              to="https://www.linkedin.com/company/navrattan-group?trk=public_profile_topcard_current_company"
+              target="_blank"
+            >
+              <i className="bi bi-linkedin"></i>
+            </Link>
+
+            <Link
               ref={(el) => (socialMediaIconsRef.current[4] = el)}
-              className="bi bi-youtube"
-            ></i>
+              style={{ textDecoration: "none", color: "white" }}
+              to="https://www.youtube.com/channel/UCw6KR8ZQI10L00JbHq48DSA"
+              target="_blank"
+            >
+              <i className="bi bi-youtube"></i>
+            </Link>
           </div>
           <div className="Footer_disclamer">
             <Link>Legal Disclaimer</Link> <h6>|</h6>
